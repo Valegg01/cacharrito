@@ -9,5 +9,3 @@ public interface alquilerRepositorio {
 	interface AlquilerRepository extends JpaRepository<alquiler, Long> {}
 
 }
-interface VehiculoRepository extends JpaRepository<Vehiculo, Long> {}
-interface UsuarioRepository extends JpaRepository<Usuario, Long> {}
